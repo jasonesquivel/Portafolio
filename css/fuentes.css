@@ -1,0 +1,8 @@
+@font-face {
+    font-family: '3270NerdFont';
+    src: url('/3270/3270NerdFont-Condensed.ttf') format('truetype');
+  }
+  
+  body {
+    font-family: '3270NerdFont', monospace;
+  }
