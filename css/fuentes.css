@@ -1,8 +1,18 @@
 @font-face {
     font-family: '3270NerdFont';
-    src: url('/3270/3270NerdFont-Condensed.ttf') format('truetype');
+    src: url('/3270/3270NerdFontMono-Regular.ttf') 
+    format('truetype');
   }
-  
+  header{
+    font-family: '3270NerdFont' ;
+  }
   body {
-    font-family: '3270NerdFont', monospace;
+    font-family: '3270NerdFont';
+  }
+  span{
+    font-family: '3270 Nerd Font';
+    font-size: 25px;
+  line-height: 27px;
+  text-align: center;
+  color: #000000;
   }
