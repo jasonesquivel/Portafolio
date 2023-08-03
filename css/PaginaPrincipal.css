@@ -1,0 +1,57 @@
+.box-sizing-Git {
+  position: absolute;
+  width: 91px;
+  height: 91px;
+  left: 61px;
+  top: 171px;
+}
+/* 2282272 1 */
+
+.box-sizing-Lengu{
+  position: absolute;
+  width: 83.65px;
+  height: 91px;
+  left: 385px;
+  top: 467px;
+  
+}
+
+
+.box-sizing-Proyects{ 
+position: absolute;
+width: 110px;
+height: 112.01px;
+width: 110px;
+height: 112.01px;
+left: 880px;
+top: 238px;
+
+}
+.box-sizing-Proyects:hover{
+  margin-top: 5px;
+  border-radius: 100px;
+}
+.box-sizing-Git:hover{
+  margin-top: 5px;
+  border-radius: 100px;
+}
+.box-sizing-Lengu:hover{
+  margin-top: 5px;
+  border-radius: 100px;
+}
+
+.box-sizing-Cv{
+
+  position: absolute;
+  width: 197px;
+  height: 167px;
+  left: 1156px;
+  top: 457px;
+  
+}
+.box-sizing-Cv:hover{
+
+  margin-top: 5px;
+  border-radius: 100px;
+
+}
