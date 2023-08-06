@@ -1,3 +1,19 @@
+#main-body {
+  background: #c0c6c3;
+  padding-top: 60px;
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: center; 
+}
+.box-sizing-Git,
+.box-sizing-Lengu,
+.box-sizing-Proyects,
+.box-sizing-Cv {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+}
+
 .box-sizing-Git {
   position: absolute;
   width: 8vw; 
@@ -6,12 +22,20 @@
   top: 10vw; 
 }
 
+.selected {
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.5);
+  background-color: #c0c6c3;
+  border: #f0f0f0;
+  
+}
+
 .box-sizing-Lengu {
   position: absolute;
   width: 7vw; 
   height: 8vw; 
   left: 30vw; 
   top: 25vw; 
+  cursor: pointer;
 }
 
 .box-sizing-Proyects {
@@ -21,12 +45,11 @@
   left: 45vw; 
   top: 15vw;
 }
-
 .box-sizing-Cv {
   position: absolute;
   width: 16vw; 
   height: 13vw; 
-  left: 58vw; 
+  left: 84vw; 
   top: 32vw; 
 }
 .box-sizing-Git img,
@@ -35,12 +58,23 @@
 .box-sizing-Cv img {
   max-width: 70%; 
   max-height: 100%; 
+  user-select: none;
+  pointer-events: none;
 }
 .box-sizing-Git h4,
 .box-sizing-Lengu h4,
 .box-sizing-Proyects h4,
 .box-sizing-Cv h4 {
-  font-size: 1vw; /* Tamaño de fuente relativo */
+  font-size: 1vw; 
+  user-select: none;
+  pointer-events: none;
+}
+.box-sizing-Git :hover,
+.box-sizing-Lengu :hover,
+.box-sizing-Proyects :hover,
+.box-sizing-Cv :hover {
+  margin-top: 0.15vw;
+  pointer-events: none;
 }
 /* Estilos para dispositivos móviles */
 @media screen and (max-width: 600px) {
